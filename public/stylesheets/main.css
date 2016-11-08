@@ -38,13 +38,32 @@
 .party{
     background-image: url("https://images.unsplash.com/photo-1425421598808-4a22ce59cc97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=dd9d0c09859cd967c8a2b12a8eb02605");
     min-height: 400px;
+}
+.news{
+    background-image: url("https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=fda84d0eb8a66efa14b8718105876369");
+}
+
+.location{
+    background-image: url("https://images.unsplash.com/photo-1445873014904-7dc044bd92db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=930e2d0b3c6ebd3787a7117d5258e133");
+    min-height: 400px;
     
 }
 
-/*table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}*/
+input{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+textarea {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.btn-default{
+    background-color: black;
+    color: white;
+}
+
 
 #makeleft{
     float: left;
@@ -80,4 +99,22 @@
   color: #777;
   background-color:white;
   padding:50px 80px;
+}
+
+.wrap {
+    width: 100%;
+    overflow:auto;
+}
+
+.fleft {
+    float:left; 
+    width: 25%;
+    height: 400px;
+}
+
+.fright {
+    float: right;
+    height: 400px;
+    width: 75%;
+    
 }
